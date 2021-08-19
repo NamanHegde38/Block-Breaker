@@ -21,13 +21,11 @@ public class Paddle : MonoBehaviour {
     }
 
     private float GetXPos() {
-        if (!_ball) return transform.position.x;
         if (_gameSession.IsAutoPlayEnabled()) {
-            return _ball.transform.position.x;
+            return !_ball ? transform.position.x : _ball.transform.position.x;
         }
-        else {
-            var mousePosInUnits = Input.mousePosition.x / Screen.width * screenWidthInUnits;
-            return mousePosInUnits;
-        }
+
+        var mousePosInUnits = Input.mousePosition.x / Screen.width * screenWidthInUnits;
+        return mousePosInUnits;
     }
 }
