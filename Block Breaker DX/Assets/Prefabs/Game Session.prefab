@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8075081633544588928}
   - component: {fileID: 1999764244614588824}
-  - component: {fileID: 2123206435731566313}
   m_Layer: 0
   m_Name: Game Session
   m_TagString: Untagged
@@ -49,18 +48,6 @@ MonoBehaviour:
   pointsPerBlockDestroyed: 83
   isAutoPlayEnabled: 0
   currentScore: 0
---- !u!114 &2123206435731566313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 754806875539850966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9475243468d02e40ba2615800c0f3bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2281171902405324200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -94,7 +81,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4544605391667282344, guid: 28d7f6ac7050cea4794b97fb09cc4889, type: 3}
       propertyPath: m_SortingOrder
-      value: 10
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544605391667282344, guid: 28d7f6ac7050cea4794b97fb09cc4889, type: 3}
+      propertyPath: m_PlaneDistance
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4544605391667282345, guid: 28d7f6ac7050cea4794b97fb09cc4889, type: 3}
       propertyPath: m_Pivot.x

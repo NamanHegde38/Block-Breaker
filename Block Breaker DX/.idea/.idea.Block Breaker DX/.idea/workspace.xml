@@ -22,10 +22,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Level.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SplashScreen.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Block.cs" />
       <option value="$PROJECT_DIR$/Assets/Materials/Rainbow.shader" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Paddle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Block.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1wUxU3snzv1bi5cYrNM0G0qBk9m" />
@@ -73,6 +73,7 @@
       <workItem from="1629274048982" duration="19000" />
       <workItem from="1629277204555" duration="7709000" />
       <workItem from="1629396489316" duration="931000" />
+      <workItem from="1629405009473" duration="675000" />
     </task>
     <servers />
   </component>
