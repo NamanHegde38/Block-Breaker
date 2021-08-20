@@ -54,7 +54,7 @@ public class Block : MonoBehaviour {
             hitFeedback?.PlayFeedbacks();
             AudioSource.PlayClipAtPoint(hitSound, Vector2.zero, hitVolume);
             var sparkles = Instantiate(blockHitVFX, 
-                new Vector3(transform.position.x + vfxOffset.x, transform.position.y + vfxOffset.y, transform.position.z + 5), transform.rotation);
+                new Vector3(transform.position.x + vfxOffset.x, transform.position.y + vfxOffset.y), transform.rotation);
             Destroy(sparkles, 2);
             ShowNextHitSprite();
         }

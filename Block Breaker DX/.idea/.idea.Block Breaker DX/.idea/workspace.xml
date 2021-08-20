@@ -25,6 +25,8 @@
       <option value="$PROJECT_DIR$/Assets/Materials/Rainbow.shader" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Paddle.cs" />
+      <option value="$PROJECT_DIR$/Builds/Block Breaker - AquaArmour/Block Breaker - AquaArmour/index.html" />
+      <option value="$PROJECT_DIR$/Builds/Block Breaker DX - AquaArmour/index.html" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Block.cs" />
     </changedPaths>
   </component>
@@ -74,6 +76,8 @@
       <workItem from="1629277204555" duration="7709000" />
       <workItem from="1629396489316" duration="931000" />
       <workItem from="1629405009473" duration="675000" />
+      <workItem from="1629482273021" duration="1168000" />
+      <workItem from="1629493421615" duration="384000" />
     </task>
     <servers />
   </component>
